@@ -30,3 +30,7 @@ class Solution(object):
         # #     if x == True:
         # #         return True
         # return False   
+
+# Set one liner approach 
+
+        return len(set(nums)) != len(nums)
